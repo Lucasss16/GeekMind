@@ -1,0 +1,32 @@
+body{background-color: #AFEEEE;
+<!--background-image: url("https://geekmindblog.files.wordpress.com/2015/01/cropped-capa_blog22.png");->
+}
+h1{color: green;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	}
+h2{color: red;
+	font-family: verdana;
+	text-shadow: 3px 3px 3px yellow;
+	}
+h3{
+	text-shadow:1px 1px 2px white;
+	}
+p{padding: 0px 10px;
+	text-align: justify;
+}
+#corpo{
+	width: 100%
+	margin: auto;
+}
+#prim{
+	background: #e3e3e3;
+	float: left;
+	padding: 0px 0px;
+	width: 50%;
+}
+#supertech{
+	background: #3e3e3e;
+	float: right;
+	width: 50%;
+}
