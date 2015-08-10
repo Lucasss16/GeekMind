@@ -1,5 +1,7 @@
-body{background-color: #AFEEEE;
+body{background-color: #292D33;
 <!--background-image: url("https://geekmindblog.files.wordpress.com/2015/01/cropped-capa_blog22.png");->
+	padding: 10px 10px 10px 50px;
+	
 }
 h1{color: green;
 	text-align: center;
@@ -11,31 +13,51 @@ h2{color: red;
 	}
 h3{
 	text-shadow:1px 1px 2px #3e3e3e;
+	text-align: center;
 	}
 p{padding: 0px 10px;
 	text-align: justify;
 }
+iframe{
+	box-shadow: 0px 2px 2px;
+}
+input[name=ideias] {    
+	padding: 0px 0px 0px 2px;
+	margin: 0px 0px 0px 10px;
+}
 #logo{
 	box-shadow: 2px 2px 2px;
+	float: center;
 }
 #corpo{
-	width: 100%
-	margin: auto;
+	width: 100%;
+	
 }
 #prim{
 	background: #e3e3e3;
 	float: left;
-	padding: 0px 0px;
-	width: 50%;
+	width: 49.9%;
+	min-height: 400px;
 	box-shadow: 0px 2px 2px;
 }
 #supertech{
 	background: #3e3e3e;
 	float: right;
-	width: 50%;
+	width: 49.9%;
+	min-height: 400px;
 	box-shadow: 2px 2px 2px;
 }
 #AppleStore{
 	box-shadow: 2px 2px 2px;
-	
+	vertical-align: center;
+}
+#miolo{
+	color: #A9ABAD;
+}
+footer{
+	background-color: #222223;
+	padding: 0px 10px;
+	text-align: justify;
+	box-shadow: 2px 2px 2px;
+
 }

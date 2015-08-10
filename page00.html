@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <meta charset="utf-8"/>
     <head>
+        <meta charset="utf-8"/>
+        
         <title>GeekMind</title>
   
          <link rel="stylesheet" type="text/css" href="style.css">
@@ -12,8 +13,11 @@
                               //alert ("Obrigado pela sua IDÉIA!");
                               //window.document.write("    "+h+":"+m).innerHTML;
                               
-                              document.getElementById("frase").innerHTML="<h3 style=color:purple align=\"center\">Obrigado pela sua IDÉIA!</h3></p><img src=\"http://img.hbdia.com/2015/06/malafaia.png\" width=\"100%\" height=\"\" alt=\"\"/>"
-                          }        
+                              document.getElementById("frase").innerHTML="<h3 style=color:purple align=\"center\">Obrigado pela sua IDÉIA!</h3></p><img src=\"http://img.hbdia.com/2015/06/malafaia.png\" width=\"100%\" height=\"\" alt=\"\"/>";
+                          }
+                  function limpar(){
+                              document.getElementById("frase").innerHTML=" ";
+                  }       
          </script>               
     </head>
 
@@ -25,12 +29,12 @@
               <div id="prim">
              
                   <h1 style=color:blue; align="center";> GeekMind </h1>
-                  <h6 align="center"><p><u>O maior blog sobre tecnologias</h6></p></u>
+                  <h6 align="center";><u>O maior blog sobre tecnologias</h6></u>
                   <br/>
                   <blockquote> <i><p style=color:grey;>"De acordo com TIM COOK este é o melhor e mais fiável blog sobre tecnologias do mundo" </i></style></blockquote>
                   <p style=color:black;>Grandes são as expectativas de qualquer Bloger conseguir alcançar o reconhecimento do maior CEO do mundo, e o jovem empresário <i><u>Lucas Sillos</u> </i>conseguiu esse tal mérito.</style>
-                  <p align="center"><a href="http://www.apple.com"> <img src="http://upload.wikimedia.org/wikipedia/commons/5/5d/Available_on_the_App_Store_%28black%29.png" width="25%" height="" id="AppleStore"></a>
-                  </p><br/><br/>
+                  <p align="center"><a href="http://www.apple.com"> <img src="http://upload.wikimedia.org/wikipedia/commons/5/5d/Available_on_the_App_Store_%28black%29.png" width="25%" height="" id="AppleStore"></a></p>
+                  <br/><br/>
                   
                   
               </div> 
@@ -45,42 +49,60 @@
                     <p/>IDÉIAS: <form name="myform">
                 
                       <input type="text" name="ideias">
-                      <input type="button" value="EnViAr" onClick="alerta()">
+                      <input type="button" value="EnViAr" onClick="alerta()">&nbsp &nbsp &nbsp
+                      <input type="button" value="Limpar" onClick="limpar()">
                       </form>
                     <p id="frase"></p>
+
                                 
-              </div>
+              </div> 
         
         
         
               <br/>
+         </div>
+         <br/> 
 
-              <script type=text/javascript>
-                  document.write("<br/><br/>Testando<i> document.write</i>");
-                  alert ("Este é um ALERT");
-                         
-                         
-              </script>
-        
-               <script type=text/javascript>
+         <div id="miolo">
+               <br/> &nbsp<br/> 
+               <p align="center"><h3>Render 3D indica que o “iPad mini 4” deverá ter a mesma espessura do iPad Air 2</h3>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/d0QWuM7prgA" frameborder="50" allowfullscreen></iframe></p><br/>
 
-                  var d= new Date();
-                  var h= d.getHours();
-                  var m=d.getMinutes();
-                  document.write("<br/><br/><h1> "+h+":"+m+"</h1>");
-                  document.write(d);
-                
-                </script>
-        
-        
-                <center><p align="center"><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xtf1/v/t1.0-1/p160x160/10636229_695640977194209_447710130300722275_n.jpg?oh=d06a46857139626178e8301a098df4b3&oe=55F5DA33&__gda__=1443449726_e1fd8a580a232e2c151f57e887d73e4a"></p></center>
-        
-        
-                <h3 style=color:orange align="center">Faça parte você também<h3>
-   
-        </div>
+                Recentemente surgiu um rumor de que o “iPad mini 4” poderá ser uma espécie de miniatura do iPad Air 2, e agora o render 3D acima — divulgado pelo @OnLeaks — parece “confirmar isso”<p></p>
+      Se for quente, ele não deixa dúvidas de que o formato é mesmo muito parecido. Porém o mais significativo será a redução em espessura: enquanto o iPad mini 3 tem 7,5mm, o novo passaria aos mesmos 6,1mm do iPad Air 2.<p></p>
 
-        <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+      O normal seria esperar os novos iPads apenas em outubro, mas na semana passada John Paczkowski, do BuzzFeed, afirmou que a Apple deverá atualizá-los no mesmo evento dos novos iPhones e da Apple TV — já em setembro. Para mim é muita coisa para uma keynote só, mas…<p></p>
+          </div>
+               
+         <footer id="rodape">
+
+                  <script type=text/javascript>
+                      document.write("<br/><br/>Testando<i> document.write</i>");
+                      alert ("Seja Bem-Vindo ao GeekMind!");
+                             
+                             
+                  </script>
+            
+                   <script type=text/javascript>
+
+                      var d= new Date();
+                      var h= d.getHours();
+                      var m=d.getMinutes();
+                      document.write("<br/><br/><h1> "+h+":"+m+"</h1>");
+                      document.write(d);
+                    
+                    </script>
+            
+            
+                    <p align="right"><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xtf1/v/t1.0-1/p160x160/10636229_695640977194209_447710130300722275_n.jpg?oh=d06a46857139626178e8301a098df4b3&oe=55F5DA33&__gda__=1443449726_e1fd8a580a232e2c151f57e887d73e4a"></p>
+            
+            
+                    <h3 style=color:orange align="center">Faça parte você também<h3>
+         </footer>
+        
+
+        
+
     </body>
  
  </html>
