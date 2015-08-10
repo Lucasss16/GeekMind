@@ -15,11 +15,11 @@ h3{
 	text-shadow:1px 1px 2px #3e3e3e;
 	text-align: center;
 	}
-p{padding: 0px 10px;
-	text-align: justify;
+p{
 }
 iframe{
-	box-shadow: 0px 2px 2px;
+	box-shadow: 0px 0px 5px;
+	margin: 10px 10px 10px 10px;
 }
 input[name=ideias] {    
 	padding: 0px 0px 0px 2px;
@@ -45,7 +45,7 @@ input[name=ideias] {
 	float: right;
 	width: 49.9%;
 	min-height: 400px;
-	box-shadow: 2px 2px 2px;
+	box-shadow: 2px 2px 2px;   
 }
 #AppleStore{
 	box-shadow: 2px 2px 2px;
@@ -53,6 +53,14 @@ input[name=ideias] {
 }
 #miolo{
 	color: #A9ABAD;
+}
+#miolo h3{
+	text-shadow: 1px 1px 1px blue;
+	text-align: center;
+}
+#miolo img{
+	box-shadow: 0px 0px 5px;
+	margin: 10px 10px 10px 10px;
 }
 footer{
 	background-color: #222223;
